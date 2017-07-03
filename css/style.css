@@ -1,0 +1,105 @@
+.wrapper{
+    width: 1100px;
+    margin: auto;
+    font-family: roboto, sans-serif;
+}
+.header{
+    height: 76px;
+    background: #1c5bc3;
+     padding: 0 20px 0 20px;
+}
+.contacts-block{
+    float: right;
+}
+.contacts__phone{
+    color: white;
+    font: bold 21px roboto, sans-serif;
+}
+.clearfix{
+    clear: both;
+}
+.contacts__schedule{
+     color: white;
+    font: bold 14px roboto, sans-serif;
+    cursor: pointer;
+    position: relative;
+    text-align: right;
+}
+.logo, .contacts-block{
+    padding-top: 18px;
+}
+/*---------^^^^^^-------шапка--------^^^^^--------*/
+.nav-nemu{
+    list-style: none;
+    width: 180px;
+    margin-left: -10px;
+    float: left;
+}
+.nav-menu__item{
+    padding: 10px 0 15px 0;
+}
+.nav-menu__icon{
+    float: left;
+    width: 35px;
+ 
+}
+.nav-menu__link{
+    text-decoration: none;
+    font: bold 14px roboto;
+}
+.main-content{
+    float: right;
+    width: 880px;
+}
+.page-image{
+    position: relative;
+}
+.page-image__text{
+    font: bold 49px roboto;
+    position: absolute;
+    top: 120px;
+    left: 30px;
+}
+.page-text{
+    width: 700px;
+}
+.booking-tickets{
+    background: #1d5bc3;
+     width: 700px;
+}
+.partners__title{
+    font: bold 49px roboto;
+}
+.partners_list{
+    list-style: none;
+    padding: 0;
+}
+.partners__item{
+    float: left;
+    width: 293px;
+    height: 173px;
+}
+.partners_image{
+    filter: grayscale(100%); 
+}
+.partners_image:hover{
+    filter: none; 
+}
+.footer{
+    height: 77px;
+    width: 1100px;
+    background: #1d5bc3;
+}
+.footer_text{
+    width: 239px;
+    float: left;
+    font: 300 14px roboto;
+    color: white;
+}
+.footer_social{
+    float: right;
+    color: white;
+}
+.footer_logo{
+    float: left;
+}
