@@ -1,0 +1,21 @@
+.crew__item{
+	width: 32.33%;
+float: left;
+}
+.item__picture{
+	width: 160px;
+	height: 160px;
+	border-radius: 50%;
+}
+.item__picture--pick1{
+	background-image: url("../../image/team/AviationCV.com_Pilot.jpg");
+}
+.item__picture--pick2{background-image: url(../../image/team/vred-raboty-stuardessy.jpg);
+}
+.item__picture--pick3{background-image: url(../../image/team/main.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.item__picture--pick4{background-image: url(../../image/team/shutterstock_362394002.jpg) ;}
+.item__picture--pick5{background-image: url(../../image/team/vred-raboty-stuardessy.jpg);}
+.item__picture--pick6{background-image: url(../../image/team/second-pilot.jpg);}
