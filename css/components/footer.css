@@ -1,0 +1,39 @@
+.footer{
+    height: 77px;
+   width: 1100px;
+    background: #1d5bc3;
+    position: relative;
+    margin-top: -77px;
+    margin: auto;
+}
+.footer_text{
+    width: 240px;
+    float: left;
+    font: 300 14px roboto;
+    color: white;
+    padding: 9px 10px 17px 20px;
+    line-height: 18px
+}
+.footer_text a{
+	color: white;
+	font: 700 14px roboto;
+}
+.footer_social{
+    float: right;
+    color: white;
+    font: 700 14px roboto, sans-serif;
+    padding: 16px 20px;
+}
+.footer_logo{
+    float: left;
+    position: absolute;
+    left: 489px;
+    top: 18px;
+}
+.footer_text__author{font: 700 14px roboto;}
+.footer_social_icon{float: left;}
+.footer_social_icon img{
+	padding-top: 5px;
+	padding-left:5px;
+}
+.footer_social_icon a:first-child{padding-left: 4px;}

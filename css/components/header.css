@@ -1,0 +1,23 @@
+.header{
+    background: #1c5bc3;
+     padding: 0 20px 20px 20px;
+}
+.contacts-block{
+    float: right;
+}
+.contacts__phone{
+    color: white;
+    font: bold 21px roboto, sans-serif;
+}
+.clearfix{
+    clear: both;
+}
+.contacts__schedule{
+     color: white;
+    font: bold 14px roboto, sans-serif;
+    cursor: pointer;
+    position: relative;
+    text-align: right;
+}
+.logo, .contacts-block{
+    padding-top: 18px;

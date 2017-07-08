@@ -1,0 +1,242 @@
+.main-content{
+    float: right;
+    width: 900px;
+}
+.page-image{position: relative;}
+.page-image__text{
+    font: bold 49px roboto;
+    position: absolute;
+    top: 148px;
+    left: 64px;
+}
+.page-text__item{margin-top: -14px;}
+ .page-text__paragraph{margin-top: -6px;}
+.page-text{
+    width: 700px;
+    padding-top: 5px;
+    font:300 18px roboto;
+    line-height: 30px;
+}
+.booking-tickets{
+    background: #1d5bc3;
+    width: 700px;
+    color: white;
+}
+.boking__text{
+	font: 300 18px roboto, sans-serif;
+	line-height:30px;
+	padding:16px 20px 7px 31px;
+}
+.boking__text__telephone,.boking__text a{
+	font-weight: bold;
+	color: white;
+}
+.partners__title{
+    font: bold 49px roboto, sans-serif;
+    padding-top: 21px;
+}
+.partners_list{
+    list-style: none;
+    padding: 0;
+}
+.partners__item{
+    float: left;
+    width: 293px;
+    height: 130px;
+}
+.partners_image{filter: grayscale(100%);}
+.partners_image:hover{filter: none; }
+.partners_image__first{padding-top: 13px;}
+.partners_image__second{margin-left:-27px;}
+.partners_image__third{margin-left: -33px;}
+.partners_image__forth{margin:-7px 0 0 9px;}
+.partners_image__fifth{margin:-6px 0 0 32px;}
+.partners_image__sixth{margin:-3px 0 0 -6px;}
+
+/*-------------отзывы-----------------------------*/
+.nav-nemu_link__item{
+    float: left;
+}
+.nav-nemu_link__item_slash{
+    padding-left: 4px;
+}
+.nav-nemu_link, .main-comments, .main-comments__count{
+    list-style: none;
+}
+.nav-nemu_link__item{
+    font: italic 14px roboto, sans-serif;
+    
+}
+
+.main-content__nav{
+    margin-top: 44px;
+}
+.main-comments, .nav-nemu_link{
+    padding: 0; 
+}
+.main-comments{
+    margin-top: 36px;
+}
+.main-comments_item{
+    margin-bottom: 60px;
+}
+.main-content__comments{
+    font:700 49px roboto, sans-serif;
+    margin-top: 15px;
+}
+.main-comments__date{
+    font:300 14px roboto, sans-serif;
+    color: #656464;
+    line-height: 21px;
+}
+.main-comments__name{
+    font:700 18px roboto, sans-serif;
+    line-height: 21px;
+}
+.main-content__description{
+    font:300 18px roboto,sans-serif;
+    color: #221f1f;
+    line-height: 30px;
+}
+.main-coments__picture{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+     float: left;
+}
+.main-comments__date, .main-comments__name, .main-content__description{
+    margin-left: 184px;
+}
+.main-comments__count{
+    float: left;
+}
+.main-comments__sheets{
+    float: left;
+    padding: 10px
+}
+/*--------------form-----------------*/
+.form {
+  width: 700px;
+  background: #f5f5f5;
+  border-radius: 3px;
+  padding: 45px 70px;
+  float: left;
+}
+
+.form__title {
+  font-size: 50px;
+  font-weight: bold;
+  color: #221f1f;
+  margin-bottom: 25px;
+}
+
+.form__row {
+  margin-bottom: 20px;
+}
+
+.form__cell {
+  display: block;
+  float: left;
+  width: 270px;
+}
+
+.form__cell:first-child {
+  margin-right: 20px;
+}
+
+.form__field-title {
+  color: #221f1f;
+  font-size: 14px;
+  margin-bottom: 7px;
+}
+
+.form__input-text {
+  width: 100%;
+  height: 45px;
+  padding: 13px 10px;
+  font-size: 14px;
+  font-weight: 300px;
+  border: 1px solid transparent;
+  border-radius: 3px;
+}
+
+.form__input-text::-webkit-input-placeholder {
+  color:#c0392b;
+}
+
+.form__input-text::-moz-placeholder {
+  color:#c0392b;
+}
+
+.form__input-text:focus {
+  border-color: #ec1e79;
+  outline: none;
+}
+
+.form__textarea {
+  height: 90px;
+  width: 100%;
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+  resize: none;
+  font-size: 14px;
+}
+
+.form__radio-elem {
+  display: inline-block;
+  vertical-align: middle;
+  display: none;
+}
+
+.form__radio-elem:checked+.form__radio-fake {
+  border: 1px solid #ec227b;
+}
+
+.form__radio-elem:checked + .form__radio-fake:after {
+  display: block;
+} 
+
+.form__radio-elem:checked+.form__radio-fake+.form__radio-text {
+  /*color: blue;*/
+  font-weight: bold;
+}
+
+.form__radio-fake {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  border-radius: 50%;
+  border: 1px solid #cbcbcb;
+  position: relative;
+  background: -webkit-linear-gradient(top, #fdfdfd 0%, #efefef 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #fdfdfd 0%, #efefef 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.form__radio-fake:after {
+  content: "";
+  display: none;
+  width: 8px;
+  height: 8px;
+  background: #ec227b;
+  border-radius: 50%;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+.form__radio-text {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.form__controls-left, .form__controls-right {
+  float: left;
+  width: 50%;
+}
+
+.form__submit {
+  display: inline-block;
+}
