@@ -9,13 +9,23 @@ float: left;
 }
 .item__picture--pick1{
 	background-image: url("../../image/team/AviationCV.com_Pilot.jpg");
+	background-position:-48px -16px;
+	background-repeat: no-repeat;
 }
 .item__picture--pick2{background-image: url(../../image/team/vred-raboty-stuardessy.jpg);
+	background-position: -129px -18px;
+	background-repeat: no-repeat;
 }
 .item__picture--pick3{background-image: url(../../image/team/main.jpg);
-	background-size: cover;
-	background-position: center;
+	background-repeat: no-repeat;
+	background-position: -197px -144px;
 }
 .item__picture--pick4{background-image: url(../../image/team/shutterstock_362394002.jpg) ;}
-.item__picture--pick5{background-image: url(../../image/team/vred-raboty-stuardessy.jpg);}
-.item__picture--pick6{background-image: url(../../image/team/second-pilot.jpg);}
+.item__picture--pick5{background-image: url(../../image/team/vred-raboty-stuardessy.jpg);
+background-position: -296px -26px;
+	background-repeat: no-repeat;
+}
+.item__picture--pick6{background-image: url(../../image/team/second-pilot.jpg);
+	background-position: -172px -3px;
+	background-repeat: no-repeat;
+	}
