@@ -12,7 +12,8 @@
 
 <body>
     <div class="wrapper">
-        <header class="header">
+       <header class="header">
+        <div class="container">
             <img class="logo" src="image/logo_header.png">
             <div class="contacts-block">
             <div class="contacts__phone">8 (800) 00-392-10</div>
@@ -20,21 +21,23 @@
                 График работы
             </div>
             </div>
+            </div>
         </header>
 		<section class="page clearfix">
+           <div class="container">
             <asade class="sidebar">
                 <nav class="menu">
                     <ul class="nav-nemu">
                         <li class="nav-menu__item">
                             <a href="index.html" class="nav-menu__link">
                                 <div class="nav-menu__icon">
-                                    <img src="image/icons/main_icon.png" alt="" height="18px">
+                                    <img src="image/icons/team_icon2.png" alt="" height="18px">
                                 </div>
-                                <div class="nav-menu__text ">Главная</div>
+                                <div class="nav-menu__text without-color_nav_menu">Главная</div>
                             </a>
                         </li>
                         <li class="nav-menu__item">
-                            <a href="" class="nav-menu__link">
+                            <a href="team.html" class="nav-menu__link">
                                 <div class="nav-menu__icon">
                                     <img src="image/icons/team_icon.png" alt="">
                                 </div>
@@ -43,10 +46,10 @@
                         </li>
                         <li class="nav-menu__item">
                             <a href="comments.html" class="nav-menu__link">
-                                <div class="nav-menu__icon ">
-                                    <img src="image/icons/feed_icon3.png" alt="">
+                                <div class="nav-menu__icon">
+                                    <img src="image/icons/feed_icon.png" alt="">
                                 </div>
-                                <div class="nav-menu__text without-color_nav_menu">Отзывы</div>
+                                <div class="nav-menu__text">Отзывы</div>
                             </a>
                         </li>
                     </nav>
@@ -99,19 +102,21 @@
 			</div>
 		</main>
 		</section>
+        </div>
 		<footer class="footer">
-                <div class="footer_text">Сделано с любовью и старанием<br>
+         <div class="container ">
+                <div class="footer__left">Сделано с любовью и старанием<br>
 на курсе «HTML + CSS» в <a href="">LoftSchool.</a>
 Автор работы:<span class="footer_text__author"> Прохладов Вадим</span>  </div>
-                    <div class="footer_logo">
-                        <img src="image/logo_header.png" alt="">
+                    <div class="footer_center">
+                       <a href=""> <img src="image/logo_header.png" class="footer__logo" alt=""></a>
                     </div>
-                    <div class="footer_social">
+                    <div class="footer__right">
                         <div class="footer_social_text">
                             Наши социальные сети
                         </div>
                         
-                        <div class="footer_social_icon">
+                        <div class="footer_social__icon">
                                 <a href=""><img src="image/icons/vk.png" class="footer_social_icon"></a>
                                 <a href=""><img src="image/icon/face.png"></a>
                                 <a href=""><img src="image/icon/gmail.png"></a>
@@ -120,7 +125,9 @@
                         </div>
                         </div>
                     </div>
+                    </div>
             </footer>
-	</div>
+           
+	
 </body>
 </html>

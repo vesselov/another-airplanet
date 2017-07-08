@@ -1,15 +1,29 @@
-.nav-nemu{
-    list-style: none;
-    width: 160px;
-    margin-left: -20px;
+.sidebar{
+    width: 180px;
+    padding-top: 45px;
+    padding-right: 10px;
     float: left;
+}
+.nav-menu__item{
+    padding-bottom: 30px;
+}
+nav-nemu{
+    list-style: none;
     padding-top: 16px;
 }
 .nav-menu__icon{
-    float: left;
-    width: 35px;
- 	margin-top: 11px;
+   float: left;
+
+}.nav-menu__icon{
+   width: 35px;
 }
+.nav-menu__link{
+    display: inline-block;
+}
+.nav-menu__text{
+    display: inline-block;
+}
+/*
 .without-color_nav_menu{color: #000;}
 .nav-menu__text{
 	letter-spacing: 2.1px;
@@ -20,4 +34,4 @@
 .nav-menu__link{
     text-decoration: none;
     font: bold 12px roboto,sans-serif;
-}
+}*/
