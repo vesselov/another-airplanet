@@ -2,50 +2,65 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-	<meta charset="UTF-8">
-	<title>team</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,700" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/components/style.css">
+    <title>Airplanet</title>
 </head>
+
 <body>
-	<div class="wrapper">
-		<header>
-			<img src="image/logo_header.png">
-			<div class="right_block">
-				<h3 class="telef">8(800) 00-392-10</h3>
-				<div class="appearince_block_work">График работы</div>
-			</div>
-			<div class="working_time">
-				<div class="block_with_schedule">
-					<span class="working_days">пн-вс:09:00-20:00</span>
-					<span class="lanch">обед: 14:00-14:30</span>
-				</div>
-			</div>
-		</header>
-		<nav>
-			<ul class="colomn_navigation">
-				<li>
-					<a href="airplanet.html"><img src="image/main_icon.png"> ГЛАВНАЯ</a>
-				</li>
-				<li>
-					<a href="team.html"><img src="image/team_icon.png"> ЭКИПАЖ</a>
-				</li>
-				<li>
-					<a href="comments.html"><img src="image/feed_icon.png"> ОТЗЫВЫ</a>
-				</li>
-			</ul>
-		</nav>
-		<main>
-			<div class="iteim_with_tabs">
-				<a href="">Главная</a>
-				<span class="slesh">/</span>
-				<a href=""> Экипаж</a>
-			</div>
-			<div class="crew">
-				<h1>Экипаж</h1>
-			</div>
-			<div class="block_with_crew">
+    <div class="wrapper">
+        <header class="header">
+            <img class="logo" src="image/logo_header.png">
+            <div class="contacts-block">
+            <div class="contacts__phone">8 (800) 00-392-10</div>
+            <div class="contacts__schedule">
+                График работы
+            </div>
+            </div>
+        </header>
+		<section class="page clearfix">
+            <asade class="sidebar">
+                <nav class="menu">
+                    <ul class="nav-nemu">
+                        <li class="nav-menu__item">
+                            <a href="index.html" class="nav-menu__link">
+                                <div class="nav-menu__icon">
+                                    <img src="image/icons/main_icon.png" alt="" height="18px">
+                                </div>
+                                <div class="nav-menu__text ">Главная</div>
+                            </a>
+                        </li>
+                        <li class="nav-menu__item">
+                            <a href="" class="nav-menu__link">
+                                <div class="nav-menu__icon">
+                                    <img src="image/icons/team_icon.png" alt="">
+                                </div>
+                                <div class="nav-menu__text">Экипаж</div>
+                            </a>
+                        </li>
+                        <li class="nav-menu__item">
+                            <a href="comments.html" class="nav-menu__link">
+                                <div class="nav-menu__icon ">
+                                    <img src="image/icons/feed_icon3.png" alt="">
+                                </div>
+                                <div class="nav-menu__text without-color_nav_menu">Отзывы</div>
+                            </a>
+                        </li>
+                    </nav>
+                </asade>
+                <main class="main-content ">
+                 	<div class="main-content__nav">
+                 		<ul class="nav-nemu_link">
+                 			<li class="nav-nemu_link__item"><a href=""> Главная</a></li>
+                 			<li class="nav-nemu_link__item nav-nemu_link__item_slash ">/</li>
+                 			<li class="nav-nemu_link__item"><a href=""> Отзывы</a></li>
+                 		</ul>
+                 	</div>
+                 	<div class="block-crew">
+			<div class="block-crew__">
 				<div class="item_with pic1"></div>
 				<div class="name_staff">Белов Алексей Вадимович</div>
 				<div class="position_at_work">Главный пилот</div>
@@ -81,28 +96,31 @@
 				<div class="position_at_work">Второй пилот</div>
 				<div class="discription_of_work">Правая рука главного пилота, опытный и отважный помощник. О своей работе в шутку говорит так «Наше дело правое, не мешать левому». Опыт работы составляет 18 лет, внимательно относится ко всем деталям и считает свою работу – делом жизни. </div>
 			</div>
-		</main>
-		<div class="clearfix"></div>
-		<footer>
-			<div class="clearfix"></div>
-			<div class="content_in_footer">		
-				<div class="made  conteiner_in_foot">
-					<p>Сделано с любовью и старанием
-						на курсе «HTML + CSS» в LoftSchool.
-						Автор работы:<span> Прохладов Вадим</span>
-					</p>
-				</div>
-				<div class="icon conteiner_in_foot"><img src="image/logo_header.png">	</div>
-				<div class="social_line conteiner_in_foot">
-					<p>Наши социальные сети</p>
-					<img src="image/vk.png" alt="vk">
-					<img src="image/Vector Smart Object-1.png" alt="">
-					<img src="image/Vector Smart Object-2.png" alt="">
-					<img src="image/Vector Smart Object-3.png" alt="">
-					<img src="image/Vector Smart Object-4.png" alt="">
-				</div>
 			</div>
-		</footer>
+		</main>
+		</section>
+		<footer class="footer">
+                <div class="footer_text">Сделано с любовью и старанием<br>
+на курсе «HTML + CSS» в <a href="">LoftSchool.</a>
+Автор работы:<span class="footer_text__author"> Прохладов Вадим</span>  </div>
+                    <div class="footer_logo">
+                        <img src="image/logo_header.png" alt="">
+                    </div>
+                    <div class="footer_social">
+                        <div class="footer_social_text">
+                            Наши социальные сети
+                        </div>
+                        
+                        <div class="footer_social_icon">
+                                <a href=""><img src="image/icons/vk.png" class="footer_social_icon"></a>
+                                <a href=""><img src="image/icon/face.png"></a>
+                                <a href=""><img src="image/icon/gmail.png"></a>
+                                <a href=""><img src="image/icon/twitir.png"></a>
+                                <a href=""><img src="image/icon/mail.png"></a>
+                        </div>
+                        </div>
+                    </div>
+            </footer>
 	</div>
 </body>
 </html>

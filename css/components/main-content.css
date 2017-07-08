@@ -1,6 +1,7 @@
 .main-content{
-    float: right;
-    width: 900px;
+    float:left;
+    width: 880px;
+  
 }
 .page-image{position: relative;}
 .page-image__text{
