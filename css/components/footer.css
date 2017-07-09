@@ -1,14 +1,21 @@
 .footer{
-
+    min-width: 1100px;
     height: 77px;
-    padding-top: 15px;
+    padding-top: 10px;
     background: #1d5bc3;
     margin-top: -77px;
+}
+.footer__logo-link{
+    display: inline-block;
+    margin-top: 5px;
 }
 .footer__left{
     font: 300 14px roboto;
     color: white;
-    line-height: 18px
+    line-height: 18px;
+}
+.footer-social{
+    display: inline-block;
 }
 .footer__left a{
 	color: white;
@@ -22,8 +29,19 @@
     float: left;
 }
 .footer__right{
+    margin-top: 5px;
     color: white;
+    line-height: 54px;
     font: 700 14px roboto, sans-serif;
     text-align: right;
 }
 .footer_text__author{font: 700 14px roboto;}
+.footer-social__link{
+    padding-left: 7px;
+    margin-top: 6px;
+    display: inline-block;
+
+}
+.footer-social{
+    margin-right: 14px;
+}

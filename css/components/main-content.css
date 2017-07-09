@@ -52,13 +52,13 @@
 .partners__item{
     float: left;
     width: 293px;
-    padding-top: 20px;
+   height: 129px;
 }
 .partners_image{filter: grayscale(100%);}
 .partners_image:hover{filter: none; }
 .partners_image__first{padding-top: 13px;}
-.partners_image__second{margin-left:-27px;}
-.partners_image__third{margin-left: -33px;}
+.partners_image__second{margin:-6px 0 0-27px;}
+.partners_image__third{margin:-6px 0 0 -33px;}
 .partners_image__forth{margin:-7px 0 0 9px;}
 .partners_image__fifth{margin:-6px 0 0 32px;}
 .partners_image__sixth{margin:-3px 0 0 -6px;}
@@ -115,11 +115,16 @@
     margin-left: 184px;
 }
 .main-comments__count{
-    float: left;
+   
+        margin: 0 0 20px 150px;
 }
 .main-comments__sheets{
     float: left;
-    padding: 10px
+    padding: 8px
+}
+.main-comments__sheets-static{
+  font:14px roboto;
+  color: #656464;
 }
 /*--------------form-----------------*/
 .form {
