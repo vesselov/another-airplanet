@@ -1,9 +1,9 @@
 .footer{
+
     height: 77px;
     padding-top: 15px;
     background: #1d5bc3;
     margin-top: -77px;
-    margin: auto;
 }
 .footer__left{
     font: 300 14px roboto;

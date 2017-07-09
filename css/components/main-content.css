@@ -10,11 +10,14 @@
     top: 148px;
     left: 64px;
 }
-.page-text__item{margin-top: -14px;}
+.page-text__item{
+  margin: -12px 0 -3px 0;
+  padding-left: 40px;
+  line-height: 31px;
+}
  .page-text__paragraph{margin-top: -6px;}
 .page-text{
     width: 700px;
-    padding-top: 5px;
     font:300 18px roboto;
     line-height: 30px;
 }
@@ -26,11 +29,17 @@
 .boking__text{
 	font: 300 18px roboto, sans-serif;
 	line-height:30px;
-	padding:16px 20px 7px 31px;
+	padding:12px 20px 12px 31px;
 }
 .boking__text__telephone,.boking__text a{
 	font-weight: bold;
 	color: white;
+}
+.boking__text a{
+  text-decoration: underline;
+}
+.partners_link{
+  display: inline-block;
 }
 .partners__title{
     font: bold 49px roboto, sans-serif;
@@ -43,7 +52,7 @@
 .partners__item{
     float: left;
     width: 293px;
-    height: 130px;
+    padding-top: 20px;
 }
 .partners_image{filter: grayscale(100%);}
 .partners_image:hover{filter: none; }
@@ -57,18 +66,15 @@
 /*-------------отзывы-----------------------------*/
 .nav-nemu_link__item{
     float: left;
+     font: italic 14px roboto, sans-serif; 
+}
+.nav-nemu_link__item--active{
+  color: #1c5bc3;
+  text-decoration: underline;
 }
 .nav-nemu_link__item_slash{
     padding-left: 4px;
 }
-.nav-nemu_link, .main-comments, .main-comments__count{
-    list-style: none;
-}
-.nav-nemu_link__item{
-    font: italic 14px roboto, sans-serif;
-    
-}
-
 .main-content__nav{
     margin-top: 44px;
 }
