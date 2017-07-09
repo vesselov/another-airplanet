@@ -1,11 +1,13 @@
 .crew__item{
 	width: 32.33%;
-float: left;
+	float: left;
+	padding-bottom: 30px;
 }
 .item__picture{
 	width: 160px;
 	height: 160px;
 	border-radius: 50%;
+	margin: auto;
 }
 .item__picture--pick1{
 	background-image: url("../../image/team/AviationCV.com_Pilot.jpg");
@@ -29,3 +31,19 @@ background-position: -296px -26px;
 	background-position: -172px -3px;
 	background-repeat: no-repeat;
 	}
+.name__staff{
+	font:700 18px roboto,sans-serif;
+	text-align: center;	
+}
+
+.position__work{
+	color: #1c5bc3;
+	font: 700 14px roboto, sans-serif;
+	text-align: center;	
+}
+.discription__work{
+	color: #221f1f;
+	font: 300 14px roboto, sans-serif
+	line-height:21px;
+	text-align: center;	
+}
