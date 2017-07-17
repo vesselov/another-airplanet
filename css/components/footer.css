@@ -9,7 +9,7 @@
     display: inline-block;
     margin-top: 5px;
 }
-.footer__left{
+.footer-left{
     font: 300 14px roboto;
     color: white;
     line-height: 18px;
@@ -17,31 +17,56 @@
 .footer-social{
     display: inline-block;
 }
-.footer__left a{
+.footer-left a{
 	color: white;
 	font: 700 14px roboto;
+    text-decoration: underline;
 }
-.footer_center{
+.footer-center{
     text-align: center;
 }
-.footer_center ,.footer__right, .footer__left{
+.footer-center , .footer-right, .footer-left{
     width: 33.33%;
     float: left;
 }
-.footer__right{
+.footer-right{
     margin-top: 5px;
     color: white;
     line-height: 54px;
     font: 700 14px roboto, sans-serif;
     text-align: right;
 }
-.footer_text__author{font: 700 14px roboto;}
+.footer__author{font: 700 14px roboto;}
 .footer-social__link{
-    padding-left: 7px;
+    margin-left: 3px;
     margin-top: 6px;
     display: inline-block;
+    width: 21px;
+    height: 20px;
+    background: url(../../../loft_school/image/icons/social.png) 0 0 no-repeat;
+
 
 }
 .footer-social{
-    margin-right: 14px;
+   
+    margin-right: 24px;
+    
+}
+.footer-social__link:hover{
+    opacity: .7;
+}
+.footer-social__link-vk{
+    background-position: -9px -10px;
+}
+.footer-social__link-face{
+    background-position: -50px -10px;
+}
+.footer-social__link-gmail{
+    background-position: -90px -10px;
+}
+.footer-social__link-tweet{
+    background-position: -130px -10px;
+}
+.footer-social__link-mail{
+    background-position: -170px -10px;
 }

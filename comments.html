@@ -11,103 +11,145 @@
 
 <body>
     <div class="wrapper">
-        <header class="header">
-        <div class="container">
+       <header class="header ">
+        <div class="container clearfix">
+        <div class="left-block">
             <img class="logo" src="image/logo_header.png">
-            <div class="contacts-block">
-            <div class="contacts__phone">8 (800) 00-392-10</div>
-            <div class="contacts__schedule">
-                График работы
             </div>
+            <div class="right-block">
+             <div class="contacts">
+            <a href="tel:88000039210" class="contacts__phone">8 (800) 00-392-10</a>
+            <div class="contacts__elem">
+              <a href="#" class="contacts__schedule">График работы</a>
+              <div class="contacts__dropdown">
+                <div class="contacts__time">
+                  пн-вс: 09:00 - 20:00
+                </div>
+                <div class="contacts__lunch">
+                  обед: 14:00-14:30
+                </div>
+              </div>
+            </div>
+
+          </div>
             </div>
             </div>
         </header>
         <section class="page clearfix">
         <div class="container">
-            <asade class="sidebar">
+             <asade class="sidebar">
                 <nav class="menu">
                     <ul class="nav-nemu">
                         <li class="nav-menu__item">
-                            <a href="index.html" class="nav-menu__link">
-                                <div class="nav-menu__icon">
-                                    <img src="image/icons/main_icon.png" alt="" height="18px">
-                                </div>
-                                <div class="nav-menu__text ">Главная</div>
+                            <a href="airplanet.html" class="nav-menu__link">
+                                <div class="nav-menu__icon nav-menu__icon--airpane "></div>
+                                <div class="nav-menu__text  ">Главная</div>
                             </a>
                         </li>
                         <li class="nav-menu__item">
                             <a href="team.html" class="nav-menu__link">
-                                <div class="nav-menu__icon">
-                                    <img src="image/icons/team_icon.png" alt="">
+                                <div class="nav-menu__icon nav-menu__icon--team">
+                                   
                                 </div>
                                 <div class="nav-menu__text">Экипаж</div>
                             </a>
                         </li>
                         <li class="nav-menu__item">
                             <a href="comments.html" class="nav-menu__link">
-                                <div class="nav-menu__icon ">
-                                    <img src="image/icons/feed_icon3.png" alt="">
+                                <div class="nav-menu__icon nav-menu__icon--star nav-menu__icon--star--black">
+                                  
                                 </div>
-                                <div class="nav-menu__text without-color_nav_menu">Отзывы</div>
+                                <div class="nav-menu__text nav-menu__text-black">Отзывы</div>
                             </a>
                         </li>
                     </nav>
                 </asade>
                 <main class="main-content">
                  	<div class="main-content__nav">
-                 		<ul class="nav-nemu_link">
-                 			<li class="nav-nemu_link__item"><a href="index.html" class="nav-nemu_link__item--active"> Главная</a></li>
-                 			<li class="nav-nemu_link__item nav-nemu_link__item_slash ">/</li>
-                 			<li class="nav-nemu_link__item"><a href=""> Отзывы</a></li>
-                 		</ul>
+                 		 <ul class="breadcrumbs">
+                        <li class="breadcrumbs__item">
+                          <a href="#" class="breadcrumbs__link">Главная</a>
+                        </li>
+                        <li class="breadcrumbs__item breadcrumbs__item_active">
+                          <a href="#" class="breadcrumbs__link">Тарифы</a>
+                        </li>
+                      </ul>
                  	</div>
                  	
-                   	<div class="main-content__comments clearfix">Отзывы</div>
-                 	<ul class="main-comments">
-                 		<li class="main-comments_item">
+                   	<div class="content-comments clearfix">Отзывы</div>
+                 	<ul class="main-comments clearfix">
+                 		<li class="main-comments__item">
                  				
                  			<img src="image/comments/twk2lletn_u-christopher-campbell.png" class="main-coments__picture" alt="">
+                             <div class="main-momments__text">
                  			<div class="main-comments__date">12.10.2016</div>
                  			<div class="main-comments__name">Ирина Паламарчук</div>
                  			<div class="main-content__description">Ужасный полет, трясло первые полчаса так, что я боялась отстегнуть ремни. Слава Богу, ничего не случилось, но мне даже валерьянка не помогла, так страшно было. Не рекомендую эту компанию, лучше доплатить и лететь с комфортом.</div>
+                            </div>
                  		</li>
-                 		<li class="main-comments_item">
-                 		
+                 		<li class="main-comments__item">
                  			<img src="image/comments/cyxmk32bdlo-kahar-saidyhalam.png" class="main-coments__picture" alt="">
+                             <div class="main-momments__text">
                  			<div class="main-comments__date">01.02.2016</div>
                  			<div class="main-comments__name">Александр Бельков</div>
                  			<div class="main-content__description">Все понравилось, вежливые стюардессы, вовремя убирают, напитки предлагали 2 раза, а еду – 1 раз. Единственное, что не понравилось, как то мало места для ног, но с этим у меня часто проблема, рост 2,1м.</div>
-                 			
+                 		 </div>
                  		</li>
-                 		<li class="main-comments_item">
-                 	
-
+                 		<li class="main-comments__item">
                  			<img src="image/comments/VectorSmartObject.png" class="main-coments__picture" alt="">
+
+                            <div class="main-momments__text">
                  			<div class="main-comments__date">22.12.2015</div>
                  			<div class="main-comments__name">Игорь Николаенко</div>
                  			<div class="main-content__description">Не кормили вообще! Сказали, что это из-за того, что полет менее 2,5 часов. Но прибавьте к этому время регистрации в аэропорту. Летел с женой и мы очень проголодались. Просто имейте это ввиду, берите с собой хотя бы бутерброды, чипсы какие-то или печенье.</div>
-                 			
+                 			</div>
                  		</li>
-                 		<li class="main-comments_item">
+                 		<li class="main-comments__item">
                  		
                  			<img src="image/comments/y0i85d5qkvs-alex-harvey.png" class="main-coments__picture" alt="">
+                             <div class="main-momments__text">
                  			<div class="main-comments__date">14.08.2015</div>
                  			<div class="main-comments__name">Анастасия Порядная</div>
                  			<div class="main-content__description">За такую цену просто все отлично! Кто недоволен, платите в 2 раза больше за аналогичные рейсы. Мне понравилось, что на борту было чисто, я аллергик и всегда чутко реагирую на пыль. Спасибо за полет! Рекомендую!</div>
+                            </div>
                  		</li>
                  	</ul>
-                 	<ul class="main-comments__count">
-                 		<li class="main-comments__sheets main-comments__sheets-static">страница 1 из 7</li>
-                 		<li class="main-comments__sheets"><a href="" class="main-comments__sheets-number"> <</a></li>
-                 		<li class="main-comments__sheets"><a href="" class="main-comments__sheets-number"> 1</a></li>
-                 		<li class="main-comments__sheets"><a href="" class="main-comments__sheets-number"> 2</a></li>
-                 		<li class="main-comments__sheets"><a href="" class="main-comments__sheets-number"> 3</a></li>
-                 		<li class="main-comments__sheets"><a href="" class="main-comments__sheets-number"> 4</a></li>
-                 		<li class="main-comments__sheets"><a href="" class="main-comments__sheets-number"> 5</a></li>
-                 		<li class="main-comments__sheets"><a href="" class="main-comments__sheets-number"> 6</a></li>
-                 		<li class="main-comments__sheets"><a href="" class="main-comments__sheets-number"> 7</a></li>
-                 		<li class="main-comments__sheets"><a href="" class="main-comments__sheets-number"> ></a></li>
-                 	</ul>
+                 	 <div class="pagination">
+            <div class="pagination__status">
+              Страница 1 из 7
+            </div>
+            <div class="pagination__controls">
+              <a href="#" class="pagination__arrow pagination__arrow_prev">
+                <</a>
+                  <ul class="pagination__list">
+                    <li class="pagination__item pagination__item_active">
+                      <a href="#" class="pagination__link">1</a>
+                    </li>
+                    <li class="pagination__item">
+                      <a href="#" class="pagination__link">2</a>
+                    </li>
+                    <li class="pagination__item">
+                      <a href="#" class="pagination__link">3</a>
+                    </li>
+                    <li class="pagination__item">
+                      <a href="#" class="pagination__link">4</a>
+                    </li>
+                    <li class="pagination__item">
+                      <a href="#" class="pagination__link">5</a>
+                    </li>
+                    <li class="pagination__item">
+                      <a href="#" class="pagination__link">6</a>
+                    </li>
+                    <li class="pagination__item">
+                      <a href="#" class="pagination__link">7</a>
+                    </li>
+                    <li class="pagination__item">
+                      <a href="#" class="pagination__link">8</a>
+                    </li>
+                  </ul>
+                  <a href="#" class="pagination__arrow pagination__arrow_next">></a>
+            </div>
+          </div>
                     <div class="form">
           <div class="form__title">
             Оставить отзывы
@@ -154,8 +196,11 @@
                         <div class="form__radio-text">Нет</div>
                       </label>
                     </div>
-                    <div class="form__controls-right">
+                    <div class="form__controls-right ">
+                        <div class="form__button">
                       <input type="submit" value="Отправить" class="form__submit">
+                      <div class="form__pick"></div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -168,29 +213,31 @@
             
         </div>
       <footer class="footer">
-         <div class="container ">
-                <div class="footer__left">Сделано с любовью и старанием<br>
-на курсе «HTML + CSS» в <a href="">LoftSchool.</a></br>
-Автор работы:<span class="footer_text__author"> Прохладов Вадим</span>  </div>
-                    <div class="footer_center">
+         <div class="container clearfix">
+                <div class="footer-left">Сделано с любовью и старанием<br>
+на курсе «HTML + CSS» в <a href="https://loftschool.com/">LoftSchool.</a></br>
+Автор работы:<span class="footer__author"> Прохладов Вадим</span>  </div>
+                    <div class="footer-center">
                        <a href="index.html" class="footer__logo-link"> <img src="image/logo_header.png" class="footer__logo" alt=""></a>
                     </div>
-                    <div class="footer__right">
-                        <div class="footer_social_text">
+                    <div class="footer-right">
+                    <div class="footer-right__text">               
                             Наши социальные сети
                         </div>
                         
                         <div class="footer-social">
-                                <a href="" class="footer-social__link"><img src="image/icons/vk.png"></a>
-                                <a href="" class="footer-social__link"><img src="image/icon/face.png"></a>
-                                <a href="" class="footer-social__link"><img src="image/icon/gmail.png"></a>
-                                <a href="" class="footer-social__link"><img src="image/icon/twitir.png"></a>
-                                <a href="" class="footer-social__link"><img src="image/icon/mail.png"></a>
+
+                                <a href="" class="footer-social__link footer-social__link-vk"></a>
+                                <a href="" class="footer-social__link footer-social__link-face"></a>
+                                <a href="" class="footer-social__link footer-social__link-gmail"></a>
+                                <a href="" class="footer-social__link footer-social__link-tweet"></a>
+                                <a href="" class="footer-social__link footer-social__link-mail"></a>
                         </div>
                         </div>
                     </div>
                     
             </footer>
+
     </body>
 
     </html>

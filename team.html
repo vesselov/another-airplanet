@@ -12,42 +12,53 @@
 
 <body>
     <div class="wrapper">
-       <header class="header">
-        <div class="container">
+       <header class="header ">
+        <div class="container clearfix">
+        <div class="left-block">
             <img class="logo" src="image/logo_header.png">
-            <div class="contacts-block">
-            <div class="contacts__phone">8 (800) 00-392-10</div>
-            <div class="contacts__schedule">
-                График работы
             </div>
+            <div class="right-block">
+             <div class="contacts">
+            <a href="tel:88000039210" class="contacts__phone">8 (800) 00-392-10</a>
+            <div class="contacts__elem">
+              <a href="#" class="contacts__schedule">График работы</a>
+              <div class="contacts__dropdown">
+                <div class="contacts__time">
+                  пн-вс: 09:00 - 20:00
+                </div>
+                <div class="contacts__lunch">
+                  обед: 14:00-14:30
+                </div>
+              </div>
+            </div>
+
+          </div>
             </div>
             </div>
         </header>
-		<section class="page clearfix">
-           <div class="container">
+        <section class="page ">
+        <div class="container clearfix">
             <asade class="sidebar">
                 <nav class="menu">
                     <ul class="nav-nemu">
                         <li class="nav-menu__item">
-                            <a href="index.html" class="nav-menu__link">
-                                <div class="nav-menu__icon">
-                                    <img src="image/icons/main_icon.png" alt="" height="18px">
-                                </div>
-                                <div class="nav-menu__text">Главная</div>
+                            <a href="airplanet.html" class="nav-menu__link">
+                                <div class="nav-menu__icon nav-menu__icon--airpane"></div>
+                                <div class="nav-menu__text ">Главная</div>
                             </a>
                         </li>
                         <li class="nav-menu__item">
                             <a href="team.html" class="nav-menu__link">
-                                <div class="nav-menu__icon">
-                                    <img src="image/icons/team_icon3.png" alt="">
+                                <div class="nav-menu__icon nav-menu__icon--team nav-menu__icon--team--black">
+                                   
                                 </div>
-                                <div class="nav-menu__text without-color_nav_menu">Экипаж</div>
+                                <div class="nav-menu__text nav-menu__text-black">Экипаж</div>
                             </a>
                         </li>
                         <li class="nav-menu__item">
                             <a href="comments.html" class="nav-menu__link">
-                                <div class="nav-menu__icon">
-                                    <img src="image/icons/feed_icon.png" alt="">
+                                <div class="nav-menu__icon nav-menu__icon--star ">
+                                  
                                 </div>
                                 <div class="nav-menu__text">Отзывы</div>
                             </a>
@@ -55,79 +66,84 @@
                     </nav>
                 </asade>
                 <main class="main-content ">
-                 	<div class="main-content__nav clearfix">
-                 		<ul class="nav-nemu_link">
-                 			<li class="nav-nemu_link__item nav-nemu_link__item--active "><a href="index.html" class="nav-nemu_link__item--active"> Главная</a></li>
-                 			<li class="nav-nemu_link__item nav-nemu_link__item_slash ">/</li>
-                 			<li class="nav-nemu_link__item "><a href="">Экипаж</a></li>
-                 		</ul>
-                 	</div>
-                    <div class="main-content__comments ">Экипаж</div>
-                 	<ul class="block-crew">
-			<li class="crew__item">
-				<div class="item__picture item__picture--pick1"></div>
-				<div class="name__staff">Белов Алексей Вадимович</div>
-				<div class="position__work">Главный пилот</div>
-				<div class="discription__work">Высокий профессионализм, честь и отвага – все это характеристики главного пилота Белова А.В. На его счету более 700 полетов. Награжден за мужество и отвагу указом президента.</div>
+                             <div class="main-content__nav">
+                         <ul class="breadcrumbs">
+                        <li class="breadcrumbs__item">
+                          <a href="#" class="breadcrumbs__link">Главная</a>
+                        </li>
+                        <li class="breadcrumbs__item breadcrumbs__item_active">
+                          <a href="#" class="breadcrumbs__link">Тарифы</a>
+                        </li>
+                      </ul>
+                    </div>
+                        <div class="content-comments clearfix ">Экипаж</div>
+                 	<ul class="block-crew clearfix">
+			<li class="crew-item">
+				<div class="crew-item__picture crew-item__picture--pick1"></div>
+				<div class="crew-item__staff">Белов Алексей Вадимович</div>
+				<div class="crew-item__work">Главный пилот</div>
+				<div class="crew-item__discription">Высокий профессионализм, честь и отвага – все это характеристики главного пилота Белова А.В. На его счету более 700 полетов. Награжден за мужество и отвагу указом президента.</div>
 			</li>
-			<li class="crew__item">
-				<div class="item__picture item__picture--pick2"></div>
-				<div class="name__staff">Сухарина Инна Николаевна</div>
-				<div class="position__work">Бортпроводник</div>
-				<div class="discription__work">Благодаря деятельности этого человека, на борту самолета клиенты чувствуют себя, как дома. Инна Николаевна чутко относится ко всем требованиям клиентов, очень любит детей и всячески помогает сделать полет комфортным и приятным.</div>
+			<li class="crew-item">
+				<div class="crew-item__picture crew-item__picture--pick2"></div>
+				<div class="crew-item__staff">Сухарина Инна Николаевна</div>
+				<div class="crew-item__work">Бортпроводник</div>
+				<div class="crew-item__discription">Благодаря деятельности этого человека, на борту самолета клиенты чувствуют себя, как дома. Инна Николаевна чутко относится ко всем требованиям клиентов, очень любит детей и всячески помогает сделать полет комфортным и приятным.</div>
 			</li>
-			<li class="crew__item">
-				<div class="item__picture item__picture--pick3"></div>
-				<div class="name__staff">Лещ Борис Анатольевич</div>
-				<div class="position__work">Авиатехник</div>
-				<div class="discription__work">Человек с золотыми руками, инженер и конструктор от Бога! Борис Анатольевич работает уже более 50 лет и на своем веку видел, как из старых моделей самолетов появлялись настоящие авиа шедевры.</div>
+			<li class="crew-item">
+				<div class="crew-item__picture crew-item__picture--pick3"></div>
+				<div class="crew-item__staff">Лещ Борис Анатольевич</div>
+				<div class="crew-item__work">Авиатехник</div>
+				<div class="crew-item__discription">Человек с золотыми руками, инженер и конструктор от Бога! Борис Анатольевич работает уже более 50 лет и на своем веку видел, как из старых моделей самолетов появлялись настоящие авиа шедевры.</div>
 			</li>
-			<li class="crew__item">
-				<div class="item__picture item__picture--pick4"></div>
-				<div class="name__staff">Дигангидзе Элина Даниловна</div>
-				<div class="position__work">Диспетчер</div>
-				<div class="discription__work">Ей присущ внимательный подход к расчетам, а отменная память удивляет даже самых опытных членов экипажа. За 22 года работы она стажировала более 100 диспетчеров для работы в крупнейших аэропортах страны.  Знает в совершенстве 5 иностранных языков.</div>
+			<li class="crew-item">
+				<div class="crew-item__picture crew-item__picture--pick4"></div>
+				<div class="crew-item__staff">Дигангидзе Элина Даниловна</div>
+				<div class="crew-item__work">Диспетчер</div>
+				<div class="crew-item__discription">Ей присущ внимательный подход к расчетам, а отменная память удивляет даже самых опытных членов экипажа. За 22 года работы она стажировала более 100 диспетчеров для работы в крупнейших аэропортах страны.  Знает в совершенстве 5 иностранных языков.</div>
 			</li>
-			<li class="crew__item">
-				<div class="item__picture item__picture--pick5"></div>
-				<div class="name__staff">Следь Елена Николаевна</div>
-				<div class="position__work">Старший бортпроводник</div>
-				<div class="discription__work">Вежливая улыбка, внимательность к деталям и большой опыт работы – это лишь малая часть достоинств Елены Николаевны. Старший бортпроводник задает тон всей поездке, поэтому клиенты, которые летят с ней, заряжаются отличным настроением и гармонией.</div>
+			<li class="crew-item">
+				<div class="crew-item__picture crew-item__picture--pick5"></div>
+				<div class="crew-item__staff">Следь Елена Николаевна</div>
+				<div class="crew-item__work">Старший бортпроводник</div>
+				<div class="crew-item__discription">Вежливая улыбка, внимательность к деталям и большой опыт работы – это лишь малая часть достоинств Елены Николаевны. Старший бортпроводник задает тон всей поездке, поэтому клиенты, которые летят с ней, заряжаются отличным настроением и гармонией.</div>
 			</li>
-			<li class="crew__item">
-				<div class="item__picture item__picture--pick6"></div>
-				<div class="name__staff">Нестеренко Юрий Афанасьевич</div>
-				<div class="position__work">Второй пилот</div>
-				<div class="discription__work">Правая рука главного пилота, опытный и отважный помощник. О своей работе в шутку говорит так «Наше дело правое, не мешать левому». Опыт работы составляет 18 лет, внимательно относится ко всем деталям и считает свою работу – делом жизни. </div>
+			<li class="crew-item">
+				<div class="crew-item__picture crew-item__picture--pick6"></div>
+				<div class="crew-item__staff">Нестеренко Юрий Афанасьевич</div>
+				<div class="crew-item__work">Второй пилот</div>
+				<div class="crew-item__discription">Правая рука главного пилота, опытный и отважный помощник. О своей работе в шутку говорит так «Наше дело правое, не мешать левому». Опыт работы составляет 18 лет, внимательно относится ко всем деталям и считает свою работу – делом жизни. </div>
 			</li>
 			</ul>
 		</main>
 		</section>
         </div>
 		<footer class="footer">
-         <div class="container ">
-                <div class="footer__left">Сделано с любовью и старанием<br>
-на курсе «HTML + CSS» в <a href="">LoftSchool.</a></br>
-Автор работы:<span class="footer_text__author"> Прохладов Вадим</span>  </div>
-                    <div class="footer_center">
+         <div class="container clearfix">
+                <div class="footer-left">Сделано с любовью и старанием<br>
+на курсе «HTML + CSS» в <a href="https://loftschool.com/">LoftSchool.</a></br>
+Автор работы:<span class="footer__author"> Прохладов Вадим</span>  </div>
+                    <div class="footer-center">
                        <a href="index.html" class="footer__logo-link"> <img src="image/logo_header.png" class="footer__logo" alt=""></a>
                     </div>
-                    <div class="footer__right">
-                        <div class="footer_social_text">
+                    <div class="footer-right">
+                    <div class="footer-right__text">               
                             Наши социальные сети
                         </div>
                         
                         <div class="footer-social">
-                                <a href="" class="footer-social__link"><img src="image/icons/vk.png"></a>
-                                <a href="" class="footer-social__link"><img src="image/icon/face.png"></a>
-                                <a href="" class="footer-social__link"><img src="image/icon/gmail.png"></a>
-                                <a href="" class="footer-social__link"><img src="image/icon/twitir.png"></a>
-                                <a href="" class="footer-social__link"><img src="image/icon/mail.png"></a>
+
+                                <a href="" class="footer-social__link footer-social__link-vk"></a>
+                                <a href="" class="footer-social__link footer-social__link-face"></a>
+                                <a href="" class="footer-social__link footer-social__link-gmail"></a>
+                                <a href="" class="footer-social__link footer-social__link-tweet"></a>
+                                <a href="" class="footer-social__link footer-social__link-mail"></a>
                         </div>
                         </div>
                     </div>
                     
             </footer>
+
            
 	
 </body>

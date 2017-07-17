@@ -1,49 +1,53 @@
-.crew__item{
+.crew-item{
 	width: 32.33%;
-	float: left;
-	padding-bottom: 30px;
+	display: inline-block;
+	padding: 30px 15px;
+	vertical-align: top;
 }
-.item__picture{
+.block-crew{
+	margin-top: 40px;
+}
+.crew-item__picture{
 	width: 160px;
 	height: 160px;
 	border-radius: 50%;
 	margin: auto;
 }
-.item__picture--pick1{
+.crew-item__picture--pick1{
 	background-image: url("../../image/team/AviationCV.com_Pilot.jpg");
 	background-position:-48px -16px;
 	background-repeat: no-repeat;
 }
-.item__picture--pick2{background-image: url(../../image/team/vred-raboty-stuardessy.jpg);
+.crew-item__picture--pick2{background-image: url(../../image/team/vred-raboty-stuardessy.jpg);
 	background-position: -129px -18px;
 	background-repeat: no-repeat;
 }
-.item__picture--pick3{background-image: url(../../image/team/main.jpg);
+.crew-item__picture--pick3{background-image: url(../../image/team/main.jpg);
 	background-repeat: no-repeat;
 	background-position: -197px -144px;
 }
-.item__picture--pick4{background-image: url(../../image/team/shutterstock_362394002.jpg) ;}
-.item__picture--pick5{background-image: url(../../image/team/vred-raboty-stuardessy.jpg);
+.crew-item__picture--pick4{background-image: url(../../image/team/shutterstock_362394002.jpg) ;}
+.crew-item__picture--pick5{background-image: url(../../image/team/vred-raboty-stuardessy.jpg);
 background-position: -296px -26px;
 	background-repeat: no-repeat;
 }
-.item__picture--pick6{background-image: url(../../image/team/second-pilot.jpg);
+.crew-item__picture--pick6{background-image: url(../../image/team/second-pilot.jpg);
 	background-position: -172px -3px;
 	background-repeat: no-repeat;
 	}
-.name__staff{
+.crew-item__staff{
 	font:700 18px roboto,sans-serif;
 	text-align: center;	
 }
 
-.position__work{
+.crew-item__work{
 	color: #1c5bc3;
 	font: 700 14px roboto, sans-serif;
 	text-align: center;	
 }
-.discription__work{
+.crew-item__discription{
 	color: #221f1f;
-	font: 300 14px roboto, sans-serif
+	font: 300 14px roboto, sans-serif;
 	line-height:21px;
 	text-align: center;	
 }

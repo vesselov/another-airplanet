@@ -3,36 +3,53 @@
     padding: 29px 0 10px 0px;
     float: left;
 }
-.nav-menu__item{
-   
-}
-nav-nemu{
-    list-style: none;
-    padding-top: 16px;
-}
 .nav-menu__icon{
-   float: left;
-   margin-top: 13px;
-
-}.nav-menu__icon{
-   width: 35px;
+  width: 23px;
+  height: 19px;
+  background-image: url(../../image/icons/css_sprites.png);
+  background-repeat: no-repeat;
+ display: inline-block;
+ vertical-align: middle;
 }
+
 .nav-menu__link{
     display: inline-block;
 }
 .nav-menu__text{
     display: inline-block;
     font:700 12px roboto,sans-serif;
+    margin-left: 10px;
 }
-
-.without-color_nav_menu{color: #000;}
 .nav-menu__text{
 	letter-spacing: 2.1px;
 	text-transform: uppercase;
 	line-height: 49px;
     max-width: 164px;
+    color: #1c5bc3;
+}
+.nav-menu__text:hover{
+  color: #000;
+}
+.nav-menu__text-black{
+  color: #000;
 }
 /*.nav-menu__link{
     text-decoration: none;
     font: bold 12px roboto,sans-serif;
 }*/
+.nav-menu__icon--team{background-position: -168px -10px}
+.nav-menu__icon--airpane{background-position: -7px -10px;}
+.nav-menu__icon--star{background-position: -125px -10px;}
+.nav-menu__link:hover .nav-menu__icon--team{background-position: -211px -10px}
+.nav-menu__link:hover .nav-menu__icon--airpane{background-position:-46px -10px;}
+.nav-menu__link:hover .nav-menu__icon--star{background-position: -84px -10px;}
+.nav-menu__icon--team--black{
+  background-position: -211px -10px;
+}
+.nav-menu__icon--airpane--black{
+  background-position:-46px -10px;
+}
+.nav-menu__icon--star--black{
+  background-position: -84px -10px;
+}
+
