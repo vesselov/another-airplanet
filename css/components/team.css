@@ -1,11 +1,11 @@
 .crew-item{
 	width: 32.33%;
 	display: inline-block;
-	padding: 30px 15px;
+	padding: 24px 12px;
 	vertical-align: top;
 }
 .block-crew{
-	margin-top: 40px;
+	margin-top: 6px;
 }
 .crew-item__picture{
 	width: 160px;
@@ -38,16 +38,19 @@ background-position: -296px -26px;
 .crew-item__staff{
 	font:700 18px roboto,sans-serif;
 	text-align: center;	
+	padding-top: 23px;
 }
 
 .crew-item__work{
 	color: #1c5bc3;
 	font: 700 14px roboto, sans-serif;
 	text-align: center;	
+	padding-top: 5px;
 }
 .crew-item__discription{
 	color: #221f1f;
 	font: 300 14px roboto, sans-serif;
 	line-height:21px;
-	text-align: center;	
+	text-align: center;
+	padding-top: 6px;	
 }
