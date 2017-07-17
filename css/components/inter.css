@@ -16,7 +16,7 @@
 	text-align: center;
 }*/
 .welcome{
-	width: 190px;
+	width: 206px;
 	display: inline-block;
 	vertical-align: middle;
 	text-align: center;
@@ -42,6 +42,8 @@
 	font-weight: bold;
 	border: 1px solid #1c5bc3;
 	border-radius: 3px;
+	font-family: roboto, sans-serif;
+	letter-spacing: 2.3px;
 }
 .welcom__pic{
 	margin-bottom: 25px;
@@ -50,15 +52,15 @@
 	color: #fff;
 	background:#1c5bc3;
 }
-.btn__airplan{
+.btn__img{
 	position: absolute;
 	width: 20px;
 	height: 20px;
 	background:url(../../image/icons/plan.png) -8px -6px no-repeat;
 	top: 10px;
-	right:26px;
+	right:17px;
 
 }
-.welcome__btn:hover .btn__airplan{
-	background-position: -18px -10px;
+.welcome__btn:hover  .btn__img{
+	background-position: -43px -6px;
 }
