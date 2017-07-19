@@ -48,7 +48,9 @@
   font-size: 14px;
   color: #221f1f;
 }
-
+.contacts{
+  display: inline-block;
+}
 .contacts__schedule {
   display: block;
   font-weight: bold;
