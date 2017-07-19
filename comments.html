@@ -150,62 +150,55 @@
                   <a href="#" class="pagination__arrow pagination__arrow_next">></a>
             </div>
           </div>
-                    <div class="form">
-          <div class="form__title">
-            Оставить отзывы
-          </div>
-          <div class="form__fields">
-            <form class="form__elem" method="post">
-              <div class="form__row clearfix">
-                <label class="form__cell">
-                  <div class="form__field-title">
-                    Ваше имя
-                  </div>
-                  <input type="text" value="" class="form__input-text" placeholder="Ввведите имя">
-                </label>
-                <label class="form__cell">
-                  <div class="form__field-title">
-                    Ссылка на профиль в VK
-                  </div>
-                  <input type="text" value="" class="form__input-text" placeholder="Вставьте ссылку">
-                </label>
-              </div>
-              <div class="form__row">
-                <label class="form__textarea-label">
-                  <div class="form__field-title">
-                    Текст отзыва
-                  </div>
-                  <textarea class="form__textarea" placeholder="Введите сообщение"></textarea>
-                </label>
-              </div>
-              <div class="form__btns clearfix">
-                <div class="form__controls">
-                  <div class="form__controls-title">
-                    Отображать фото в отзыве?
-                  </div>
-                  <div class="form__controls-btns clearfix">
-                    <div class="form__controls-left">
-                      <label class="form__radio">
-                        <input type="radio" name="review" class="form__radio-elem" checked>
-                        <div class="form__radio-fake"></div>
-                        <div class="form__radio-text">Да</div>
-                      </label>
-                      <label class="form__radio">
-                        <input type="radio" name="review" class="form__radio-elem">
-                        <div class="form__radio-fake"></div>
-                        <div class="form__radio-text">Нет</div>
-                      </label>
-                    </div>
-                    <div class="form__controls-right ">
-                        <div class="form__button">
-                      <input type="submit" value="Отправить" class="form__submit">
-                      <div class="form__pick"></div>
-                      </div>
-                    </div>
-                  </div>
+                   <div class="form form_padding">
+                    <h2 class="form__index-name">Оставить отзыв</h2>
+                    <form action="" method="post">
+                        <div class="form__row clearfix">
+                            <label class="form__label-input">
+                                <div class="fotrm__title">Ваше имя</div>
+                                <input type="text" class="form__input" placeholder="Введите имя" name="name">
+                            </label>
+                            <label class="form__label-input">
+                                <div class="fotrm__title">Ссылка на профиль VK</div>
+                                <input type="text" class="form__input" placeholder="vk.com/example" name="name">
+                            </label>
+                        </div>
+                        <div class="form__row">
+                            <label class="form__label-textarea">
+                                <div class="fotrm__title">Текст отзыва</div>
+                                <textarea name="comment" class="form__comment" placeholder="Мне понравилось"></textarea>
+                            </label>
+                        </div>
+
+                        <div class="form__button clearfix">
+                            <div class="button__left">
+                                <div class="button__left-title">
+                                    Отображать фото в отзыве?
+                                </div>
+                                <div class="button__left-radio">
+                                    <label class="form__radio">
+                                        <input class="form__radio-btn" type="radio" name="photo" checked>
+                                        <div class="form__radio_fake"></div>
+                                        <div class="form__radio-title">Да</div>
+                                    </label>
+                                    <label class="form__radio">
+                                        <input class="form__radio-btn" type="radio" name="photo" >
+                                        <div class="form__radio_fake"></div>
+                                        <div class="form__radio-title">Нет</div>
+                                    </label>
+
+                                </div>
+                            </div>
+
+                            <div class="button__right">
+                                <button class="form__btn text_bold">
+                                    <div class="btn__text">Отправить</div>
+                                    <div class="btn__img btn__img_position "></div>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
                 </div>
-              </div>
-            </form>
                 </main>
                  </div>
             </section>
@@ -216,7 +209,7 @@
          <div class="container clearfix">
                 <div class="footer-left">Сделано с любовью и старанием<br>
 на курсе «HTML + CSS» в <a href="https://loftschool.com/">LoftSchool.</a></br>
-Автор работы:<span class="footer__author"> Прохладов Вадим</span>  </div>
+Автор работы:<span class="footer__author">Веселов Евгений</span>  </div>
                     <div class="footer-center">
                        <a href="index.html" class="footer__logo-link"> <img src="image/logo_header.png" class="footer__logo" alt=""></a>
                     </div>

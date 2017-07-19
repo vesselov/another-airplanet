@@ -1,22 +1,29 @@
 .crew-item{
-	width: 32.33%;
+	width: 249px;
 	display: inline-block;
-	padding: 24px 12px;
+	text-align: center;
 	vertical-align: top;
+	margin-bottom: 44px;
+    margin-right: 38px;
+
 }
 .block-crew{
-	margin-top: 6px;
+	padding-left: 11px;
+    padding-top: 5px;
+    line-height: 21px;
+    margin-bottom: 20px;
 }
 .crew-item__picture{
 	width: 160px;
 	height: 160px;
 	border-radius: 50%;
-	margin: auto;
+	display: inline-block;
 }
 .crew-item__picture--pick1{
 	background-image: url("../../image/team/AviationCV.com_Pilot.jpg");
 	background-position:-48px -16px;
 	background-repeat: no-repeat;
+
 }
 .crew-item__picture--pick2{background-image: url(../../image/team/vred-raboty-stuardessy.jpg);
 	background-position: -129px -18px;

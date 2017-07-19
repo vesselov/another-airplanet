@@ -52,7 +52,7 @@
 	color: #fff;
 	background:#1c5bc3;
 }
-.btn__img{
+/*.btn__img{
 	position: absolute;
 	width: 20px;
 	height: 20px;
@@ -60,7 +60,7 @@
 	top: 10px;
 	right:17px;
 
-}
+}*/
 .welcome__btn:hover  .btn__img{
 	background-position: -43px -6px;
 }
