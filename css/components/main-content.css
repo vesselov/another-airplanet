@@ -134,8 +134,8 @@
 }
 
 .main-comments__item{
-    padding-bottom: 19px;
-    margin-bottom: 25px;
+    padding-bottom: 29px;
+    margin-bottom: 26px;
     border-bottom: 2px solid #f5f5f5;
 }
 .main-comments__item:first-child{
@@ -143,6 +143,7 @@
 }
 .main-comments__item:last-child{
   border-bottom: none;
+  margin-top: -5px;
 }
 .content-comments{
     font:700 49px roboto, sans-serif;
@@ -155,13 +156,15 @@
 }
 .main-comments__name{
     font:700 18px roboto, sans-serif;
-    line-height: 21px;
+    line-height: 24px;
 }
 .main-content__description{
     font:300 18px roboto,sans-serif;
     color: #221f1f;
     line-height: 30px;
-    padding-right: 5px;
+   
+    margin-top:4px;
+    padding-top:3px;
 }
 .main-coments__picture{
     width: 160px;
@@ -171,9 +174,9 @@
 }
 .main-momments__text{
  overflow: hidden;
- padding-left: 20px;
+ padding-left: 15px;
  display: inline-block;
- width: 700px;
+ width: 714px;
  vertical-align: top;
 }
 .main-comments__count{
@@ -190,7 +193,7 @@
 }
 .pagination {
   text-align: center;
-  margin-bottom: 70px;
+  margin: -6px 0 66px -101px;
 }
 
 .pagination__status {
@@ -262,7 +265,7 @@
 }
 
 .form_padding {
-    padding: 43px 68px 49px;
+    padding: 4px 68px 49px;
     margin-bottom: 71px;
 }
 
@@ -413,7 +416,8 @@
     display: inline-block;
     width: 15px;
     height: 14px;
-    background-image: url(../../image/icons/main_icon.png);
+    background-image: url("../../image/icons/Vector Smart Object.png");
+
     background-size: cover;
 }
 
@@ -424,5 +428,5 @@
 }
 
 .form__btn:hover .btn__img {
-    background-image: url("../../image/icons/Vector Smart Object.png");
+    background-image: url("../../image/icons/main_icon.png");
 }
