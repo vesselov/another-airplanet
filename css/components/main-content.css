@@ -64,8 +64,8 @@
 }
 .partners-item{
 
-    float: left;
-    margin-right: 20px;
+   
+    margin-right: 46px;
     width: 212px;
     margin-bottom: 50px;
     height: 75px;
@@ -76,7 +76,7 @@
     display: block;
     position: relative;
 }
-.partners-title{
+.partners__title{
     font: bold 49px roboto, sans-serif;
     padding-top: 21px;
 }
@@ -84,13 +84,13 @@
 .partners-item__image{filter: grayscale(100%);}
 .partners-item__image:hover{filter: none; }
 .partners-item__image_first{margin-top: -15px;}
-.partners-item__image_middle{/*margin:-14px 0 0 37px;*/ left: 50%;
-    transform: translate(-50%, -50%);}
+/*.partners-item__image_middle{/*margin:-14px 0 0 37px;*/ left: 50%;
+    transform: translate(-50%, -50%);}/*
 .partners-item__image_right{/*margin:-15px 0 0 91px;*/ right: 0;}
 .partners-item__image_forth{margin:-7px 0 0 9px;}
-.partners-item__image_middle{/*margin:-6px 0 0 32px;*/ left: 50%;
+.partners-item__image_middle{margin:-10px 0 0 85px ;
     transform: translate(-50%, -50%);}
-.partners-item__image_right{/*margin:-3px 0 0 -6px;*/right: 41px;}
+.partners-item__image_right{margin:-9px 0 0 30px;}
 
 /*-------------отзывы-----------------------------*/
 .breadcrumbs {
@@ -118,6 +118,7 @@
 .breadcrumbs__item_active .breadcrumbs__link {
   text-decoration: none;
   color: #221f1f;
+  cursor: default;
 } 
 
 .breadcrumbs__item_active:after {

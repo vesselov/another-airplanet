@@ -38,7 +38,7 @@
 }
 .footer__author{font: 700 14px roboto;}
 .footer-social__link{
-    margin-left: 3px;
+    margin-left: 6px;
     margin-top: 6px;
     display: inline-block;
     width: 21px;
@@ -49,7 +49,7 @@
 }
 .footer-social{
    
-    margin-right: 24px;
+    margin-right: 13px;
     
 }
 .footer-social__link:hover{

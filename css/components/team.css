@@ -1,27 +1,34 @@
 .crew-item{
-	width: 249px;
-	display: inline-block;
-	text-align: center;
-	vertical-align: top;
-	margin-bottom: 44px;
-    margin-right: 38px;
+display: inline-block;
+width: 260px;
+text-align: center;
+vertical-align: top;
+margin-bottom: 44px;
+margin-right: 35px;
+
+
 
 }
 .block-crew{
-	padding-left: 11px;
-    padding-top: 5px;
-    line-height: 21px;
-    margin-bottom: 20px;
+padding-left: 11px;
+padding-top: 38px;
+line-height: 21px;
+margin-bottom: 20px;
+width: 913px;
+
 }
 .crew-item__picture{
-	width: 160px;
-	height: 160px;
-	border-radius: 50%;
 	display: inline-block;
+width: 160px;
+height: 160px;
+border-radius: 50%;
+overflow: hidden;
+margin-bottom: 11px;
+
 }
 .crew-item__picture--pick1{
 	background-image: url("../../image/team/AviationCV.com_Pilot.jpg");
-	background-position:-48px -16px;
+	background-position:-58px -25px;
 	background-repeat: no-repeat;
 
 }
@@ -45,7 +52,7 @@ background-position: -296px -26px;
 .crew-item__staff{
 	font:700 18px roboto,sans-serif;
 	text-align: center;	
-	padding-top: 23px;
+	padding-top: 12px;
 }
 
 .crew-item__work{
