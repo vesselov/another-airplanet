@@ -409,7 +409,7 @@
 }
 
 
-.btn__img_position {
+.btn__img--position {
     margin-left: 10px;
 }
 
@@ -417,7 +417,7 @@
     display: inline-block;
     width: 15px;
     height: 14px;
-    background-image: url("../../image/icons/Vector Smart Object.png");
+    background-image: url("../../image/icons/Vector.png");
 
     background-size: cover;
 }

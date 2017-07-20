@@ -21,7 +21,7 @@
 	vertical-align: middle;
 	text-align: center;
 	position: absolute;
-	top: 50%;
+	top: 51%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	-webkit-transform: translate(-50%, -50%);
@@ -46,21 +46,21 @@
 	letter-spacing: 2.3px;
 }
 .welcom__pic{
-	margin-bottom: 25px;
+	margin-bottom: 35px;
 }
 .welcome__btn:hover{
 	color: #fff;
 	background:#1c5bc3;
 }
-/*.btn__img{
+.btn__image{
 	position: absolute;
 	width: 20px;
 	height: 20px;
-	background:url(../../image/icons/plan.png) -8px -6px no-repeat;
-	top: 10px;
+	background:url(../../image/icons/plan.png) -9px -8px no-repeat;
+	top: 12px;
 	right:17px;
 
-}*/
-.welcome__btn:hover  .btn__img{
-	background-position: -43px -6px;
+}
+.welcome__btn:hover .btn__image{
+	background-position: -44px -8px;
 }
